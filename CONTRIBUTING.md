@@ -7,27 +7,27 @@ https://www.udacity.com/course/how-to-use-git-and-github--ud775
 
 ## Github Guides
 
-For some guides on how to use Github. These are short a really informative.
+For some guides on how to use Github. These are short and really informative.
 ```
 https://guides.github.com
 ```
 
 ## Workflow
 
-Fork and clone the repo.
+Fork the repository using the github front-end and clone a local copy of your version of the repo.
 ```
 git clone
 ```
-Add the upstream seven-web-frameworks repository as a new remote to your clone. 
+Add the upstream seven-languages repository as a new remote to your clone.
 ```
-$ git remote add upstream https://github.com/mikeyjcat/seven-web-frameworks.git
+$ git remote add upstream https://github.com/mike-hewitson/seven-languages.git
 ```
 Create a new branch:
 ```
 git checkout -b name-of-branch
 ```
 Commit and push as usual on your branch.
-When you're ready to submit a pull request, rebase your branch onto the upstream master so that you can resolve any conflicts: 
+When you're ready to submit a pull request, rebase your branch onto the upstream master so that you can resolve any conflicts:
 ```
 $ git fetch upstream && git rebase upstream/master
 ```
@@ -36,7 +36,7 @@ When you've got everything solved, push up to your branch and send the pull requ
 
 ## Ignore
 
-Don't forget to update the .gitignore file with stuff not to be added to the repo eg databases
+Don't forget to update the .gitignore file with stuff not to be added to the repo eg generated files (when running some examples)
 
 ## Issues
 We keep track of everything around the repository using Github issues.
