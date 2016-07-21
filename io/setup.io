@@ -5,7 +5,7 @@ ObjectOrientedLanguage := Language clone
 ObjectOrientedLanguage describe := method("An object-oriented programming language" print)
 
 PrototypeLanguage := Language clone
-PrototypeLanguage describe := method("A prototype language")
+PrototypeLanguage describe := method("A prototype language" print)
 
 ruby := ObjectOrientedLanguage clone
 io := PrototypeLanguage clone
