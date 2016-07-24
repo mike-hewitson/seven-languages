@@ -14,4 +14,4 @@ kids.scala & sizer.scala had deprecated code and is marked as such now.
 
 The new kids.scala & sizer.scala uses akka actors instead of the deprecated scala methods.
 
-On sizer.scala and sizer_deprecated.scala some of the URL's (specifically amazon.com) might return HTTP 503 errors. I think this is a self defence mechanism on the website's side to prevent DDOS attacks.
+On sizer.scala and sizer_deprecated.scala some of the URL's (usually amazon.com) might return HTTP 503 errors. I think this is a self defence mechanism on the website's side to prevent DDOS attacks.
