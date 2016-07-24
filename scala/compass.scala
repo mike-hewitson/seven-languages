@@ -3,7 +3,7 @@ class Compass {
   val directions = List("north", "east", "south", "west")
   var bearing = 0
   print("Initial bearing: ")
-  println(direction)
+  println(direction())
 // END:constructor
 // START:direction
   def direction() = directions(bearing)
@@ -28,10 +28,10 @@ class Compass {
 
 val myCompass = new Compass
 
-myCompass.turnRight
-myCompass.turnRight
+myCompass.turnRight()
+myCompass.turnRight()
 
-myCompass.turnLeft
-myCompass.turnLeft
-myCompass.turnLeft
+myCompass.turnLeft()
+myCompass.turnLeft()
+myCompass.turnLeft()
 
