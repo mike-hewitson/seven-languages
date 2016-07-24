@@ -8,7 +8,6 @@ object PageLoader {
   //  FIX: Thanks to https://github.com/krzysztofr/7lan7wk/blob/master/README.md
   def getPageSize(url: String) = Source.fromURL(url)(io.Codec("ISO-8859-1")).mkString.length
 }
-
 // END:loader
 
 val urls = List("http://www.amazon.com/",
