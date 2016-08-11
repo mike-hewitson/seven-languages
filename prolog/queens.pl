@@ -44,3 +44,4 @@ eight_queens(Board) :-
   fd_all_different(Cols), 
   fd_all_different(Diags1),   
   fd_all_different(Diags2).
+  
