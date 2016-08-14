@@ -8,9 +8,9 @@
 %%---
 sudoku(Puzzle, Solution) :-
         Solution = Puzzle, 
-        Puzzle = [S11, S12, S13, S14, 
-                  S21, S22, S23, S24, 
-                  S31, S32, S33, S34, 
-                  S41, S42, S43, S44], 
+        Puzzle = [_S11, _S12, _S13, _S14, 
+                  _S21, _S22, _S23, _S24, 
+                  _S31, _S32, _S33, _S34, 
+                  _S41, _S42, _S43, _S44], 
         fd_domain(Puzzle, 1, 4).
         
