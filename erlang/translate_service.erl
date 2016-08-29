@@ -27,4 +27,3 @@ translate(To, Word) ->
     receive
         Translation -> Translation
     end.
-
