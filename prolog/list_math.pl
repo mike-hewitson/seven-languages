@@ -7,7 +7,7 @@
 %%  Visit http://www.pragmaticprogrammer.com/titles/btlang for more book information.
 %%---
 count(0, []).
-count(Count, [Head|Tail]) :- count(TailCount, Tail), Count is TailCount + 1.
+count(Count, [_Head|Tail]) :- count(TailCount, Tail), Count is TailCount + 1.
 
 sum(0, []).
 sum(Total, [Head|Tail]) :- sum(Sum, Tail), Total is Head + Sum.

@@ -1,0 +1,8 @@
+============================================
+Notes and tips
+============================================
+1. Overriding the Object clone method didn't work and just seems to wait forever. 
+
+2. Be careful when formatting the code as sometimes it can prevent the code from working. E.g. try put ifFalse on a new line in unless.io
+
+3. To use code from another file (similar to java's import), use the command doFile('Path_of_file') to evaluate the code in that file.
