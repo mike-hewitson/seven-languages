@@ -25,3 +25,8 @@ On sizer.scala and sizer_deprecated.scala some of the URL's (usually amazon.com)
 - To avoid getting undefined method exception, you first need to run    dynamic command before calling methods in the file.
 E.G. ?- dynamic fd_all_different/1.
     
+# Erlang
+
+The sample code all works fine as is.
+-I Compiled them using the latest version of Erlang OTP 19.0 for windows.
+-Removed empty lines from the translate_service.erl file.

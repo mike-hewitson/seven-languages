@@ -13,16 +13,13 @@ loop() ->
     receive
         {From, "casa"} -> 
             From ! "house", 
-            loop();
-        
-		
+            loop();    
         {From, "blanca"} -> 
             From ! "white", 
-            loop();
-        
+            loop(); 
         {From, _} -> 
             From ! "I don't understand.", 
-            loop()       
+            loop()			
 end.
 
 translate(To, Word) ->
@@ -30,4 +27,3 @@ translate(To, Word) ->
     receive
         Translation -> Translation
     end.
-
