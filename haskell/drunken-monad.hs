@@ -1,5 +1,5 @@
 -- START:identity
-module Main where
+module DrunkenMonad where
     data Position t = Position t deriving (Show)
 
     stagger (Position d) = Position (d + 2)

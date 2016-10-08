@@ -1,5 +1,5 @@
 -- START:base
-module Main where
+module DrunkenPirate where
 
     stagger :: (Num t) => t -> t
     stagger d = d + 2

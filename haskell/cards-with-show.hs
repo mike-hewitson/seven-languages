@@ -1,5 +1,5 @@
 -- START:types
-module Main where
+module CardsWithShow where
     data Suit = Spades | Hearts deriving (Show)
     data Rank = Ten | Jack | Queen | King | Ace deriving (Show)
     type Card = (Rank, Suit)

@@ -1,4 +1,4 @@
-module Main where
+module Fib where
     fib :: Integer -> Integer
     fib 0 = 1
     fib 1 = 1

@@ -1,3 +1,3 @@
-module Main where
+module Double where
 
     double x = x + x

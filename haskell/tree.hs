@@ -1,5 +1,5 @@
 -- START:types
-module Main where
+module Trees where
     data Tree a = Children [Tree a] | Leaf a deriving (Show)
 -- END:types
     
