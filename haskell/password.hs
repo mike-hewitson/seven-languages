@@ -1,4 +1,4 @@
-module Main where
+module Password where
     crack = do x <- ['a'..'c'] ; y <- ['a'..'c'] ; z <- ['a'..'c'] ; 
                let { password = [x, y, z] } ;
                if attempt password

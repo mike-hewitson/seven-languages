@@ -1,4 +1,4 @@
-module Main where
+module FactWihGuard where
     factorial :: Integer -> Integer
     factorial x
         | x > 1 = x * factorial (x - 1)

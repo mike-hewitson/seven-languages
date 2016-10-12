@@ -1,4 +1,4 @@
-module Main where
+module LazyFib where
     lazyFib x y = x:(lazyFib y (x + y))
     
     fib = lazyFib 1 1
